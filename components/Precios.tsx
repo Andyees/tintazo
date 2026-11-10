@@ -16,12 +16,12 @@ export default function Precios() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
           {precios.map((p) => (
             <article
               key={p.producto}
               className={`relative rounded-3xl border-3 border-crema p-7 text-tinta ${p.color} ${
-                p.destacado ? "lg:-translate-y-4 shadow-[8px_8px_0_0_#FF3D7F]" : "shadow-[6px_6px_0_0_#FFF6E9]"
+                p.destacado ? "md:-translate-y-4 shadow-[8px_8px_0_0_#FF3D7F]" : "shadow-[6px_6px_0_0_#FFF6E9]"
               }`}
             >
               {p.destacado && (
@@ -31,7 +31,7 @@ export default function Precios() {
               )}
               <h3 className="font-display text-2xl font-extrabold">{p.producto}</h3>
               <p className="mt-6 text-sm font-bold uppercase tracking-wider text-tinta/60">Desde</p>
-              <p className="font-display text-4xl font-extrabold tracking-tight xl:text-[2.6rem]">{formatoCOP(p.desde)}</p>
+              <p className="font-display text-5xl font-extrabold tracking-tight">{formatoCOP(p.desde)}</p>
               <p className="mt-4 text-tinta/80">{p.detalle}</p>
               <a href="#cotizar" className="btn mt-6 w-full bg-white">
                 Lo quiero
