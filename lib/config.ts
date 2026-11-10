@@ -15,6 +15,12 @@ export const marca = {
 
 export const precios = [
   {
+    producto: "Vaso sin asa",
+    desde: 18000,
+    detalle: "Vaso sublimado a todo color. El detalle perfecto y el más económico.",
+    color: "bg-naranja",
+  },
+  {
     producto: "Mug clásico 11oz",
     desde: 25000,
     detalle: "Cerámica blanca, diseño a todo color, apto para microondas.",
@@ -38,7 +44,8 @@ export const precios = [
 export const productosCotizacion = [
   "Mug clásico",
   "Mug mágico",
-  "Vaso / termo",
+  "Vaso sin asa",
+  "Termo",
   "Camiseta",
   "Combo regalo",
   "Pedido por mayor / empresa",
