@@ -47,14 +47,14 @@ export const otrosProductos = [
   {
     producto: "Portarretrato con base de madera",
     precio: 25000,
-    detalle: "Acrílico brillante con tu foto, sobre base de madera.",
+    detalle: "Tu foto favorita impresa, sobre base de madera.",
     icono: "🖼️",
     color: "bg-menta",
   },
   {
     producto: "Portarretrato pequeño",
     precio: 20000,
-    detalle: "Acrílico mini con tu foto y su base. Ideal para el escritorio o la mesa de noche.",
+    detalle: "Pequeño, con tu foto y su base. Ideal para el escritorio o la mesa de noche.",
     icono: "🪟",
     color: "bg-lila",
   },
