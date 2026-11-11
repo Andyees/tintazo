@@ -35,11 +35,47 @@ export const precios = [
   },
 ];
 
+/** Otros productos personalizados (tarjetas pequeñas debajo de los precios). */
+export const otrosProductos = [
+  {
+    producto: "Cojín 40×40",
+    precio: 30000,
+    detalle: "Funda suave con tu foto o diseño. El abrazo perfecto.",
+    icono: "🛋️",
+    color: "bg-sol",
+  },
+  {
+    producto: "Portarretrato con base de madera",
+    precio: 25000,
+    detalle: "Acrílico brillante con tu foto, sobre base de madera.",
+    icono: "🖼️",
+    color: "bg-menta",
+  },
+  {
+    producto: "Portarretrato estilo Instagram",
+    precio: 20000,
+    detalle: "Tu foto como un post, con likes y todo. Incluye base.",
+    icono: "📱",
+    color: "bg-lila",
+  },
+  {
+    producto: "Rompecabezas personalizado",
+    precio: 18000,
+    detalle: "Arma tu foto favorita pieza por pieza. Regalo top.",
+    icono: "🧩",
+    color: "bg-naranja",
+  },
+];
+
 export const productosCotizacion = [
   "Mug clásico",
   "Mug mágico",
   "Vaso / termo",
   "Camiseta",
+  "Cojín 40×40",
+  "Portarretrato con base de madera",
+  "Portarretrato estilo Instagram",
+  "Rompecabezas",
   "Combo regalo",
   "Pedido por mayor / empresa",
   "Otro",

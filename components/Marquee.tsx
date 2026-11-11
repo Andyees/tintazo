@@ -1,4 +1,4 @@
-const items = ["Vasos", "Camisetas", "Mugs mágicos", "Termos", "Regalos", "Cumpleaños", "Parejas", "Empresas"];
+const items = ["Vasos", "Camisetas", "Mugs mágicos", "Cojines", "Portarretratos", "Rompecabezas", "Regalos", "Empresas"];
 
 export default function Marquee({ invertido = false }: { invertido?: boolean }) {
   const fila = [...items, ...items];

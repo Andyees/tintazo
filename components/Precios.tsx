@@ -1,4 +1,4 @@
-import { formatoCOP, precios } from "@/lib/config";
+import { formatoCOP, otrosProductos, precios } from "@/lib/config";
 
 export default function Precios() {
   return (
@@ -37,6 +37,26 @@ export default function Precios() {
                 Lo quiero
               </a>
             </article>
+          ))}
+        </div>
+
+        <h3 className="mt-20 font-display text-3xl font-extrabold md:text-4xl">
+          Y también <span className="text-fucsia">para regalar</span> ✺
+        </h3>
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {otrosProductos.map((p) => (
+            <a
+              key={p.producto}
+              href="#cotizar"
+              className={`group flex flex-col rounded-3xl border-3 border-crema ${p.color} p-6 text-tinta shadow-[5px_5px_0_0_#FFF6E9] transition hover:-translate-y-1 hover:shadow-[7px_7px_0_0_#FF3D7F]`}
+            >
+              <span className="grid h-14 w-14 place-items-center rounded-2xl border-3 border-tinta bg-white text-3xl transition group-hover:-rotate-6">
+                {p.icono}
+              </span>
+              <h4 className="mt-4 font-display text-xl font-extrabold leading-tight">{p.producto}</h4>
+              <p className="mt-2 flex-1 text-sm text-tinta/80">{p.detalle}</p>
+              <p className="mt-4 font-display text-3xl font-extrabold tracking-tight">{formatoCOP(p.precio)}</p>
+            </a>
           ))}
         </div>
       </div>
