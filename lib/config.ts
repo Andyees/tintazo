@@ -8,7 +8,7 @@ export const marca = {
   descripcion:
     "Vasos, mugs y camisetas personalizadas con sublimación de alta calidad. Diseños únicos para regalar, celebrar o emprender.",
   // Número de WhatsApp con indicativo de país, sin + ni espacios (57 = Colombia)
-  whatsapp: "573000000000",
+  whatsapp: "573226171395",
   instagram: "tintazo.co",
   ciudad: "Colombia",
 };
