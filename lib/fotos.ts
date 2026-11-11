@@ -23,7 +23,7 @@ export const fotos = {
   empaque: pexels("7309213/pexels-photo-7309213.jpeg", 600),
   merch: pexels("32963961/pexels-photo-32963961/free-photo-of-cafe-merchandise-display-with-t-shirts-and-caps.jpeg", 600),
   plancha: pexels("9314012/pexels-photo-9314012.jpeg", 1400),
-  cojin: pexels("1239221/pexels-photo-1239221.jpeg", 600),
+  cojin: "/fotos/cojin.webp",
   portarretrato: pexels("10252177/pexels-photo-10252177.jpeg", 600),
   portarretratoMini: pexels("8015524/pexels-photo-8015524.jpeg", 600),
   rompecabezas: pexels("8386125/pexels-photo-8386125.jpeg", 600),
