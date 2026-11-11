@@ -23,6 +23,10 @@ export const fotos = {
   empaque: pexels("7309213/pexels-photo-7309213.jpeg", 600),
   merch: pexels("32963961/pexels-photo-32963961/free-photo-of-cafe-merchandise-display-with-t-shirts-and-caps.jpeg", 600),
   plancha: pexels("9314012/pexels-photo-9314012.jpeg", 1400),
+  cojin: pexels("1239221/pexels-photo-1239221.jpeg", 600),
+  portarretrato: pexels("10252177/pexels-photo-10252177.jpeg", 600),
+  portarretratoMini: pexels("8015524/pexels-photo-8015524.jpeg", 600),
+  rompecabezas: pexels("8386125/pexels-photo-8386125.jpeg", 600),
 };
 
 /** Trabajos para la galería mientras no haya fotos subidas desde /admin. */
@@ -34,5 +38,4 @@ export const trabajosEjemplo = [
   { id: "r3", titulo: "Mug superhéroe", categoria: "vasos", imagen_url: fotos.mugFlash },
   { id: "e6", titulo: "Camiseta ilustrada", categoria: "camisetas", imagen_url: pexels("36942017/pexels-photo-36942017/free-photo-of-stylish-oversized-men-s-t-shirt-with-abstract-print.jpeg", 600) },
   { id: "r4", titulo: "Mugs con nombre", categoria: "vasos", imagen_url: fotos.mugsPareja },
-  { id: "e7", titulo: "Merch para marca", categoria: "otros", imagen_url: pexels("32963962/pexels-photo-32963962/free-photo-of-white-t-shirts-on-hangers-with-coffee-branding.jpeg", 600) },
-] as const;
+  { id: "e7", titulo: "Merch para marca", categoria: "otros", imagen_url: pexels("32963962/pexels-photo-32963962/free-photo-of-white-t-shirts-on-hangers-with-coffee-branding.jpeg", 600) },] as const;

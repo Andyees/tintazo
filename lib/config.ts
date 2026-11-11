@@ -52,10 +52,10 @@ export const otrosProductos = [
     color: "bg-menta",
   },
   {
-    producto: "Portarretrato estilo Instagram",
+    producto: "Portarretrato pequeño",
     precio: 20000,
-    detalle: "Tu foto como un post, con likes y todo. Incluye base.",
-    icono: "📱",
+    detalle: "Acrílico mini con tu foto y su base. Ideal para el escritorio o la mesa de noche.",
+    icono: "🪟",
     color: "bg-lila",
   },
   {
@@ -74,7 +74,7 @@ export const productosCotizacion = [
   "Camiseta",
   "Cojín 40×40",
   "Portarretrato con base de madera",
-  "Portarretrato estilo Instagram",
+  "Portarretrato pequeño",
   "Rompecabezas",
   "Combo regalo",
   "Pedido por mayor / empresa",

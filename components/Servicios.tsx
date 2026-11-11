@@ -6,6 +6,10 @@ const extras = [
   { titulo: "Vasos y termos", texto: "Para el gym, la oficina o la U. Personalizados con nombre o foto.", icono: "🥤", color: "bg-naranja", foto: fotos.mugExterior },
   { titulo: "Combos regalo", texto: "Mug + camiseta + empaque bonito. Perfecto para cumpleaños y fechas especiales.", icono: "🎁", color: "bg-menta", foto: fotos.empaque },
   { titulo: "Pedidos por mayor", texto: "Uniformes, eventos, recordatorios y merch para tu marca o empresa.", icono: "📦", color: "bg-sol", foto: fotos.merch },
+  { titulo: "Cojines", texto: "Funda de 40×40 con tu foto o diseño. El abrazo perfecto.", icono: "🛋️", color: "bg-sol", foto: fotos.cojin },
+  { titulo: "Portarretratos", texto: "Acrílico brillante con tu foto, sobre base de madera.", icono: "🖼️", color: "bg-menta", foto: fotos.portarretrato },
+  { titulo: "Portarretrato mini", texto: "Acrílico pequeño con tu foto y su base. Perfecto para el escritorio.", icono: "🪟", color: "bg-lila", foto: fotos.portarretratoMini },
+  { titulo: "Rompecabezas", texto: "Arma tu foto favorita pieza por pieza. Un regalo top.", icono: "🧩", color: "bg-naranja", foto: fotos.rompecabezas },
 ];
 
 function TarjetaGrande({
